@@ -31,10 +31,10 @@ public class TempConversion {
             System.out.println();
             System.out.println("The temp " + tempC + " in Farhiet is " + tempF);
 
-        } else if (unit == 2)
+        } else if (unit == 2) {
 
             System.out.println("Enter the temp in Farhiet: ");
-        {
+
             if (userTemp.hasNextDouble()) {
                 tempF = userTemp.nextDouble();
             }
@@ -43,6 +43,10 @@ public class TempConversion {
 
             System.out.println();
             System.out.println("The temp " + tempF + " in Celcius is " + tempC);
+
+        } else {
+            System.out.println("Make sure you enter a 1 or 2!");
+
         }
 
     }
